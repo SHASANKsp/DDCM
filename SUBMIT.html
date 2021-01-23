@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    
+    <title>
+        SUBMIT - DDCM
+    </title>
+    <link href="Page design.css" rel="stylesheet">    
+</head>
+
+<body class="body">
+    <h1 style="background-color: brown;">
+    <table style="color: white;">
+    <tr>
+        <th style="font-size: xx-large; ">DDCM</th>
+        <th style="text-align: left;">| Details on<br>| Disease<br>| Causing<br>| Mutations</th>
+        <th style="color: brown;">----------</th>
+        <th> HOME </th>
+        <th style="color: brown;">----------</th>
+        <th> SEARCH in </th>
+        <th style="color: brown;">----------</th>
+        <th> hyperlink </th>
+        <th style="color: brown;">----------</th>
+        <th> hyperlink </th>
+        <th style="color: brown;">----------</th>
+        <th> hyperlink </th>
+        <th style="color: brown;">----------</th>
+        <th><a  style="color: white;" href="SUBMIT.html"> SUBMIT </a></th>
+        <th style="color: brown;">----------</th>
+        <th><a  style="color: white;" href="FEEDBACK.html"> FEEDBACK </a></th>
+    </tr>
+    </table>
+    </h1>
+    
+    <h2 class="h1">DATA SUBMITION</h2>
+
+    <form style="text-align: center;" action="FEEDBACK-data.php" method="POST">
+        Name: <input type="text" name="Name"/>
+        Email: <input type="text" name="Email"/> <br><br><br><br>
+        Comments: <textarea name="Comments"></textarea> <br><br><br>
+        Related data: (upload all data in a single file)<input type="file" name="Data"><br><br><br>
+        <input type="radio" name="declaration" value="dec"/>Declaration: I declare that the data uploaded by me is correct to the best of my knowledge. <br><br><br>
+        <input type="submit"/>
+    </form>
+    
+    <h1 style="color: brown; background-color: brown;">END</h1>
+</body>
+</html>
