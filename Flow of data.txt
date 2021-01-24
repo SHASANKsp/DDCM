@@ -1,0 +1,28 @@
+*Data mining:
+	List of Disease:
+		Particular disease:
+			List of mutations involved (Details: Locations and change in nucleotide)
+			Corresponding mRNA varients (Mutalyzer)
+			
+
+
+*Web page:
+	Pages:
+	    (main pages)
+		home
+		search
+		genetic disease
+		mutaions
+		submit
+		feedback
+	    (result pages)
+		disease
+		mutations
+		mutations + mRNA data
+	
+	Tables:
+		for submit data
+		for feedback data
+		for list of disease with their details(with a primary key to connect with the mutation table)
+		for mutation with their details(Mutation having the primary key with their disease)
+		for mRNA data
