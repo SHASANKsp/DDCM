@@ -1,6 +1,7 @@
 *Data mining:
 	List of Disease:
 		Particular disease:
+			Description of the disease
 			List of mutations involved (Details: Locations and change in nucleotide)
 			Corresponding mRNA varients (Mutalyzer)
 			
@@ -16,8 +17,8 @@
 		submit
 		feedback
 	    (result pages)
-		disease
-		mutations
+		disease(description for disease + link for mutations)
+		mutations(list of all mutations in that particular disease + link for details and mRNA data)
 		mutations + mRNA data
 	
 	Tables:
