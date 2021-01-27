@@ -14,8 +14,8 @@
 		search
 		genetic disease
 		mutaions
-		submit
-		feedback
+		submit-----------(Done)
+		feedback---------(Done)
 	    (result pages)
 		disease(description for disease + link for mutations)
 		mutations(list of all mutations in that particular disease + link for details and mRNA data)
