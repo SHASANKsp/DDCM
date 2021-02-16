@@ -48,9 +48,11 @@ if($id == "gd"){
     
     $q3 = "SELECT * FROM `varient` WHERE `Name` LIKE '$Name'";
     $results_v = $con->query($q3);
-    echo "<h3>List of varients:</h3>";
+    echo "<h3>RNA variants:</h3>";
     $row_v = $results_v->fetch_array();
-    echo $row_v['varient']."<br>";
+    echo $row_v['RNA_Variant']."<br>";
+    echo "<h3>Protein variants:</h3>";
+    echo $row_v['Protein_Variant']."<br>";
      
     
 }else{
@@ -69,10 +71,12 @@ if($id == "gd"){
     
     $q3 = "SELECT * FROM `varient` WHERE `gene_aff` LIKE '$Name'";
     $results_v = $con->query($q3);
-    echo "<h3>List of varients:</h3>";
-    while($row_v = $results_v->fetch_array()){
-        echo "<br>".$row_v['varient']."<br>";
-    }  
+    echo "<h3>RNA variants:</h3>";
+    $row_v = $results_v->fetch_array();
+    echo $row_v['RNA_Variant']."<br>";
+    echo "<h3>Protein variants:</h3>";
+    echo $row_v['Protein_Variant']."<br>";
+      
 }
 #$up_name = strtoupper($name);
 #echo ($up_name);
