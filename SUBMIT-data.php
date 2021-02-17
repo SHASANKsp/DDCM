@@ -3,7 +3,7 @@
 <head>
     
     <title>
-        SEARCH RESULT - DDCM
+        THANK YOU - DDCM
     </title>
     <link href="Page design.css" rel="stylesheet">    
 </head>
