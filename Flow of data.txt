@@ -1,37 +1,4 @@
-*Data mining:
-	List of Disease:
-		Particular disease:
-			Description of the disease
-			List of mutations involved (Details: Locations and change in nucleotide)
-			Corresponding mRNA varients (Mutalyzer)
-			
-
-
-*Web page:
-	Pages:
-	    (main pages)
-		home
-		search
-		genetic disease
-		mutaions
-		submit-----------(Done)
-		feedback---------(Done)
-	    (result pages)
-		disease(description for disease + link for mutations)
-		mutations(list of all mutations in that particular disease + link for details and mRNA data)
-		mutations + mRNA data
-	
-	Tables:
-		for submit data
-		for feedback data
-		for list of disease with their details(with a primary key to connect with the mutation table)
-		for mutation with their details(Mutation having the primary key with their disease)
-		for mRNA data
-
-
-
 ==================================================================================================================>List of Disease:
-----------------------------------<Soham>
 01 Achondroplasia
 02 Huntington's disease
 03 Marfan syndrome
@@ -41,7 +8,6 @@
 07 Sickle cell anaemia
 08 Cystic fibrosis
 09 Tay–Sachs disease
--------------------------------------<Debasish>
 10 Phenylketonuria
 11 Galactosemia
 12 Haemophilia
@@ -51,7 +17,6 @@
 16 Von Willebrand disease
 17 Albinism
 18 Tay–Sachs disease
-------------------------------------<Shasank>
 19 Niemann–Pick disease
 20 spinal muscular atrophy
 21 Roberts syndrome
