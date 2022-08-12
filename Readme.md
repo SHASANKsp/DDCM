@@ -74,6 +74,8 @@ List of Disease:
 26 Edward syndrome
 
 
+Details on each disorders:
+
 Genetic Disorder		ChromosomeAffected	Gene Involved	Type of Mutation	Hereditary pattern
 
 Achondroplasia			4			FGFR3		Gene alteration		Autosomal Dominant
